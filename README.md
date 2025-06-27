@@ -394,6 +394,132 @@ Yes, while optimized for newer devices, Esign iOS 26 maintains backward compatib
 ### Can I upgrade from older Esign versions to iOS 26?  
 Yes, you can install Esign iOS 26 alongside or as a replacement for older versions. Your certificates and settings can be migrated automatically.
 
+### How do I install Esign iOS without a computer?
+You can install Esign iOS without a PC by downloading it via DNS or using a signing service. Visit [Esign Installer](https://iospack.com/apps/esign-ipa-installer/) on Safari, install the DNS profile, and trust the certificate in Settings.
+
+### Is Esign iOS free to download and use?
+Yes, Esign iOS offers a free version. However, to use stable certificates and avoid revokes, premium certificates are recommended.
+
+### What iOS versions are compatible with Esign iOS?
+Esign iOS supports iOS 8 through iOS 26 beta, including iOS 16, iOS 17, and iOS 18.5.
+
+### Do I need to jailbreak my iPhone to use Esign iOS?
+No. Esign works on both jailbroken and non-jailbroken devices, allowing you to sideload apps safely.
+
+### How do I trust the Esign iOS app after installation?
+Go to **Settings > General > VPN & Device Management**, find the Esign profile, and tap **Trust**.
+
+### Can I install Esign iOS on iPad?
+Yes. Esign iOS fully supports all iPad models from iPadOS 12 to iPadOS 26.
+
+### What's the difference between Esign iOS and other IPA signers like AltStore?
+Esign offers **PC-free installation**, batch signing, AI tweaks, and long-term certificate support—features not found in AltStore or Sideloadly.
+
+### Where can I get certificates for Esign iOS?
+You can import free community certificates or buy premium ones from trusted sources like [Esign IPA Installer](https://iospack.com/apps/esign-ipa-installer/).
+
+### What's the difference between free and premium certificates?
+Free certificates last 7 days and are prone to revocation. Premium certificates are valid for up to 1 year and more stable.
+
+### How long do certificates last before expiring?
+Free certificates last 7 days; premium and developer certificates can last up to 1 year.
+
+### Can I use my Apple Developer certificate with Esign iOS?
+Yes. You can import your personal Apple Developer certificate in `.p12` and `.mobileprovision` formats.
+
+### How do I import certificates into Esign iOS?
+In the Esign app, tap **Import Certificate**, then upload your `.p12` and `.mobileprovision` files.
+
+### Why do my apps stop working after a few days?
+This typically happens if you're using a free certificate that has expired or been revoked.
+
+### What's a .p12 certificate and .mobileprovision file?
+These are necessary components of an Apple Developer certificate used to sign and authorize apps.
+
+### Why do I get "App integrity could not be verified" error?
+This error usually means the certificate has expired or was revoked. Re-sign the IPA with a valid certificate.
+
+### How do I fix "Unable to install" error?
+Ensure you're using a supported iOS version, valid certificate, and that the IPA is not corrupted.
+
+### Why does Esign iOS crash when I try to sign an app?
+Clear the app cache, update to the latest version, and make sure your certificate is valid.
+
+### What does "Esign no longer available" error mean?
+This happens when Apple revokes the certificate or the DNS profile is outdated. Reinstall or change your signing source.
+
+### Why do my signed apps crash immediately after opening?
+It’s likely due to certificate revocation. Re-sign with a premium or unrevoked certificate.
+
+### How do I fix certificate revocation issues?
+Use premium or enterprise certificates and avoid public/shared ones. Re-sign apps if needed.
+
+### What file formats does Esign iOS support?
+Esign supports `.ipa` files for sideloading. It does not support `.deb` or `.zip` directly.
+
+### Can I sign large IPA files (over 500MB)?
+Yes. Esign iOS 26 supports large IPA files up to 2GB.
+
+### How do I inject tweaks into IPA files using Esign iOS?
+Use the "Advanced Signature" feature and enable tweak injection before signing.
+
+### Can I install multiple versions of the same app?
+Yes. Use custom Bundle IDs to install multiple versions side by side.
+
+### How do I change app names and icons before signing?
+Tap on the app in Esign, go to **Advanced Settings**, and customize the name and icon before signing.
+
+### Is it possible to sign apps in bulk/batch mode?
+Yes. Esign iOS 26 supports batch signing through its multi-file import system.
+
+### Why won't my IPA file import into Esign iOS?
+Ensure the IPA is not corrupted or zipped. Also check if the file size is within supported limits.
+
+### How do I clear Esign iOS cache to fix issues?
+Go to Esign settings and tap **Clear Cache**. Restart the app afterward.
+
+### What should I do if Esign iOS won't open?
+Update the app or reinstall it from a verified source. Make sure the certificate is still valid.
+
+### How do I update Esign iOS to the latest version?
+Visit [Esign iOS](https://iospack.com/apps/esign-ipa-installer/) and download the latest version or update via in-app prompt.
+
+### Why is the signing process taking so long?
+Large files or slow devices can delay signing. Ensure sufficient storage and close background apps.
+
+### Can I backup my signed apps?
+Currently, Esign does not support automatic app backup, but you can re-sign the IPA later using stored files.
+
+### Is Esign iOS safe to use?
+Yes. Esign processes everything on-device and uses encrypted certificates for security.
+
+### Will using Esign iOS void my warranty?
+No. It doesn’t require jailbreaking or modifying your iOS system.
+
+### Can Apple detect that I'm using Esign iOS?
+Apple can detect enterprise certificates but cannot see which app was signed unless submitted to the App Store.
+
+### Is it legal to use Esign iOS?
+Sideloading personal apps is legal. Distributing pirated IPAs is not.
+
+### Will Esign iOS harm my device?
+No. It’s a secure signing tool that runs within iOS’s app sandbox.
+
+### How do I get Esign iOS to work with the latest iOS updates?
+Always update to the latest Esign version. Beta support for iOS 26 is already available.
+
+### Can I use Esign iOS for enterprise app distribution?
+Yes, if you have an enterprise Apple Developer account and comply with Apple’s distribution rules.
+
+### How do I troubleshoot DNS profile issues?
+Reinstall the DNS profile or switch to a different verified DNS provider.
+
+### What's the maximum number of apps I can install?
+With premium or enterprise certificates, you can install multiple apps. Free certificates are limited to 3.
+
+### How do I migrate from other signing tools to Esign iOS?
+Export your certificate files and import them into Esign. Esign supports most standard .p12/.mobileprovision credentials.
+
 ### How does the AI-powered signing work?  
 The AI system analyzes IPA files for compatibility issues, optimizes signing parameters, and provides intelligent recommendations for certificates and settings based on your device and iOS version.
 
