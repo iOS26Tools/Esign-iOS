@@ -3,7 +3,7 @@
 Download Esign iOS 26 IPA signing tool – install IPAs without jailbreak or PC. Sign apps easily on iPhone, iPad with fast, stable certificate support.
 
 ## What is Esign iOS 26?  
-Esign iOS 26 is an advanced IPA signing tool designed to let iPhone and iPad users install third-party apps directly on their devices without needing a computer or jailbreak. It supports a wide range of iOS versions—from iOS 8 up to the latest iOS 26 beta—offering seamless on-device app signing and installation. This tool simplifies the process of sideloading apps by managing certificates and allowing customization like app renaming and tweak injection, making it a top choice for secure, flexible, and PC-free iOS app sideloading.
+Esign iOS 26 is an advanced IPA signing tool designed to let iPhone and iPad users install third-party apps directly on their devices without needing a computer or jailbreak. It supports a wide range of iOS versions—from iOS 8 up to the latest iOS 26 offering seamless on-device app signing and installation. This tool simplifies the process of sideloading apps by managing certificates and allowing customization like app renaming and tweak injection, making it a top choice for secure, flexible, and PC-free iOS app sideloading.
 
 [![Esign iOS IPA Installer for iPhone and iPad](https://github.com/iOS26Tools/Esign-iOS/blob/main/Esign%20IPA%20Signer/Esign%20iOS%20IPA%20Installer%20for%20iPhone%20and%20iPad.png?raw=true)](https://iexmo.com/latest/esign-ipa/)
 
@@ -35,8 +35,9 @@ Esign iOS 26 delivers a comprehensive, user-friendly experience that empowers iP
 ## Complete Device Compatibility  
 
 ### Supported iPhones for Esign iOS 26  
-- Latest Generation (Optimized Performance):  
-  iPhone 16 series (16, 16 Plus, 16 Pro, 16 Pro Max)  
+- Latest Generation (Optimized Performance):
+- iPhone 17 series (including the iPhone 17, iPhone Air, iPhone 17 Pro, and iPhone 17 Pro Max) 
+  iPhone 16 series (16, 16 Plus, 16 Pro, 16 Pro Max)    
   iPhone 15 series (15, 15 Plus, 15 Pro, 15 Pro Max)  
   iPhone 14 series (14, 14 Plus, 14 Pro, 14 Pro Max)  
 - Previous Generations (Full Compatibility):  
@@ -73,7 +74,7 @@ Esign iOS 26 delivers a comprehensive, user-friendly experience that empowers iP
   iPad Mini 4, 3, 2  
 
 ## Esign iOS Version Support  
-- iOS 26 Beta Support  
+- iOS 26 Support - iOS 26.3, iOS 26.2, iOS 26.1, iOS 26.0.1, and iOS 26.0.  
   - iOS 26.0 Developer Beta: Full compatibility  
   - iOS 26.1 Beta: Day-one support  
   - iPadOS 26: Complete feature parity  
